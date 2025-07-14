@@ -1,10 +1,9 @@
 body {
-  font-family: sans-serif;
-  text-align: center;
+  front-family: sans-serif;
+  text-aling: center;
   padding: 20px;
   background: #f0f0f0;
 }
-
 #grid {
   display: grid;
   grid-template-columns: repeat(20, 20px);
@@ -12,15 +11,13 @@ body {
   gap: 1px;
   justify-content: center;
 }
-
 .cell {
   width: 20px;
   height: 20px;
   background-color: white;
   border: 1px solid #ccc;
 }
-
 .cell:hover {
-  background-color: lightblue;
+  background.color: lightblue;
   cursor: pointer;
 }
